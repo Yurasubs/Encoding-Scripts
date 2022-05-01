@@ -5,10 +5,10 @@ core = vs.core
 # Loading Plugins
 core.std.LoadPlugin(path="C:/Program Files/Hybrid/64bit/vsfilters/DebandFilter/Flash3kDeband/flash3kyuu_deband.dll")
 core.std.LoadPlugin(path="C:/Program Files/Hybrid/64bit/vsfilters/SourceFilter/LSmashSource/vslsmashsource.dll")
-# source: 'C:\Users\Lumi\Downloads\Kawaii dake ja Nai Shikimori-san - S01E04 - 1080p WEB x264 -NanDesuKa (CR).mkv'
+# source: ''
 # current color space: YUV420P8, bit depth: 8, resolution: 1920x1080, fps: 23.976, color matrix: 709, yuv luminance scale: limited, scanorder: progressive
-# Loading C:\Users\Lumi\Downloads\Kawaii dake ja Nai Shikimori-san - S01E04 - 1080p WEB x264 -NanDesuKa (CR).mkv using LWLibavSource
-clip = core.lsmas.LWLibavSource(source="C:/Users/Lumi/Downloads/Kawaii dake ja Nai Shikimori-san - S01E04 - 1080p WEB x264 -NanDesuKa (CR).mkv", format="YUV420P8", cache=0, prefer_hw=0)
+# Loading Video using LWLibavSource
+clip = core.lsmas.LWLibavSource(source="", format="YUV420P8", cache=0, prefer_hw=0)
 # Setting color matrix to 709.
 clip = core.std.SetFrameProps(clip, _Matrix=1)
 clip = clip if not core.text.FrameProps(clip,'_Transfer') else core.std.SetFrameProps(clip, _Transfer=1)
