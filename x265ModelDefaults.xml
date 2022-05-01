@@ -1,0 +1,215 @@
+﻿<HybridModel name="x265Model" version="210724">
+ <HybridData value="none" name="adaptiveQuantizationMode"/>
+ <HybridData value="1" name="adaptiveQuantizationStrength"/>
+ <HybridData value="true" name="adjustVUIColorMatrixToInput"/>
+ <HybridData value="true" name="adjustVUIColorPrimesToInput"/>
+ <HybridData value="true" name="adjustVUIColorRangeToInput"/>
+ <HybridData value="true" name="adjustVUIColorTransferToInput"/>
+ <HybridData value="false" name="allowNonConformanceForLevelNone"/>
+ <HybridData name="analysisFile"/>
+ <HybridData name="analysisGroup"/>
+ <HybridData value="false" name="aqMotion"/>
+ <HybridData value="false" name="asynMoPart"/>
+ <HybridData value="18" name="atcSei"/>
+ <HybridData value="false" name="audSignaling"/>
+ <HybridData value="true" name="autoBitdepth"/>
+ <HybridData value="true" name="autoOutputColor"/>
+ <HybridData value="false" name="autoPMO"/>
+ <HybridData value="trellis" name="bAdapt"/>
+ <HybridData value="true" name="bIntra"/>
+ <HybridData value="true" name="bPyramid"/>
+ <HybridData value="0" name="bframeBoost"/>
+ <HybridData value="4" name="bframes"/>
+ <HybridData value="8-bit" name="bitDepth"/>
+ <HybridData value="1500" name="bitrate"/>
+ <HybridData value="false" name="calculatePSNR"/>
+ <HybridData value="false" name="calculateSSIM"/>
+ <HybridData value="-2" name="chromaCbOffset"/>
+ <HybridData value="-2" name="chromaCrOffset"/>
+ <HybridData value="2" name="complexAnalysis"/>
+ <HybridData value="20" name="complexityBlur"/>
+ <HybridData value="false" name="constVBV"/>
+ <HybridData value="false" name="constrainedIntraPrediction"/>
+ <HybridData value="1" name="cpuCount"/>
+ <HybridData value="true" name="createQpFile"/>
+ <HybridData value="false" name="cuLossless"/>
+ <HybridData value="false" name="cuTree"/>
+ <HybridData name="customCLAddition"/>
+ <HybridData value="true" name="customQuantizationGroupSize"/>
+ <HybridData value="-1" name="deblockingStrength"/>
+ <HybridData value="-1" name="deblockingThreshold"/>
+ <HybridData name="dhdr10-info"/>
+ <HybridData value="none" name="dolbyVisionProfile"/>
+ <HybridData name="dolbyVisionRpuFile"/>
+ <HybridData value="false" name="earlySkip"/>
+ <HybridData value="2" name="encodeModeStack"/>
+ <HybridData value="constant rate factor (1-pass)" name="encodingTyp"/>
+ <HybridData value="0" name="extendGop"/>
+ <HybridData value="true" name="fast1stPass"/>
+ <HybridData value="false" name="fastIntra"/>
+ <HybridData value="false" name="fastTransformSkip"/>
+ <HybridData value="0" name="frameThreads"/>
+ <HybridData value="250" name="gopMax"/>
+ <HybridData value="0" name="gopMin"/>
+ <HybridData value="false" name="handleFades"/>
+ <HybridData value="false" name="hdrOpt"/>
+ <HybridData value="false" name="hevcAQ"/>
+ <HybridData value="unrestricted" name="hevcLevel"/>
+ <HybridData value="Main 10" name="hevcProfile"/>
+ <HybridData value="High" name="hevcTier"/>
+ <HybridData value="false" name="hierarchicalME"/>
+ <HybridData value="0.01" name="histogramSceneCut"/>
+ <HybridData value="umh" name="hme1"/>
+ <HybridData value="umh" name="hme4"/>
+ <HybridData value="hex" name="hme6"/>
+ <HybridData value="48" name="hmer1"/>
+ <HybridData value="32" name="hmer4"/>
+ <HybridData value="16" name="hmer6"/>
+ <HybridData value="false" name="hrdConcatSignaling"/>
+ <HybridData value="false" name="hrdSignaling"/>
+ <HybridData value="false" name="idrRecoverySei"/>
+ <HybridData value="true" name="infoSEI"/>
+ <HybridData name="inputColorMatrix"/>
+ <HybridData value="false" name="interlaced"/>
+ <HybridData value="false" name="interlacedInput"/>
+ <HybridData value="8-bit" name="internalBitDepth"/>
+ <HybridData value="false" name="intraRefresh"/>
+ <HybridData value="true" name="intraSmoothing"/>
+ <HybridData value="1.4" name="ipFactor"/>
+ <HybridData value="true" name="lightFromInput"/>
+ <HybridData value="true" name="limitModes"/>
+ <HybridData value="true" name="limitSAO"/>
+ <HybridData value="0" name="limitTU"/>
+ <HybridData value="no limit" name="limitrefs"/>
+ <HybridData value="20" name="lookahead"/>
+ <HybridData value="0" name="lookaheadSlices"/>
+ <HybridData value="0" name="lookaheadthreads"/>
+ <HybridData value="true" name="loopFilter"/>
+ <HybridData value="false" name="lossless"/>
+ <HybridData value="false" name="lowpassDCT"/>
+ <HybridData value="5" name="maskingStrengthBwdNonRefQPDelta"/>
+ <HybridData value="5" name="maskingStrengthBwdRefQPDelta"/>
+ <HybridData value="100" name="maskingStrengthBwdWindow"/>
+ <HybridData value="5" name="maskingStrengthFwdNonRefQPDelta"/>
+ <HybridData value="5" name="maskingStrengthFwdRefQPDelta"/>
+ <HybridData value="500" name="maskingStrengthFwdWindow"/>
+ <HybridData name="masterDisplayInfo"/>
+ <HybridData value="1" name="maxAuSizeFactor"/>
+ <HybridData value="64x64" name="maxCuSize"/>
+ <HybridData value="3" name="maxMerge"/>
+ <HybridData value="8" name="maxPoc"/>
+ <HybridData value="1" name="maxTuDepthInter"/>
+ <HybridData value="1" name="maxTuDepthIntra"/>
+ <HybridData value="32" name="maxTuSize"/>
+ <HybridData value="0" name="maxcll"/>
+ <HybridData value="0" name="maxfall"/>
+ <HybridData value="true" name="mdFromInput"/>
+ <HybridData value="57" name="meRange"/>
+ <HybridData value="false" name="mediumCompatibility"/>
+ <HybridData value="unrestricted" name="mediumVBV"/>
+ <HybridData value="8x8" name="minCuSize"/>
+ <HybridData value="hex" name="motionEstimation"/>
+ <HybridData value="true" name="multiPassAnalysisRefinement"/>
+ <HybridData value="true" name="multiPassQPRefinement"/>
+ <HybridData value="0" name="noiseReductionInter"/>
+ <HybridData value="0" name="noiseReductionIntra"/>
+ <HybridData value="false" name="opengop"/>
+ <HybridData value="true" name="optimizeCuQP"/>
+ <HybridData value="true" name="optimizeQuantizer"/>
+ <HybridData value="true" name="optimizeReferenceList"/>
+ <HybridData value="same" name="out_scanorder"/>
+ <HybridData value="i420" name="outputColorSpace"/>
+ <HybridData value="manual" name="outputParTyp"/>
+ <HybridData value="false" name="parallelModeAnalysis"/>
+ <HybridData value="false" name="parallelMotionEstimation"/>
+ <HybridData value="1.3" name="pbFactor"/>
+ <HybridData value="(progressive) Frame" name="picStruct"/>
+ <HybridData value="1" name="pools"/>
+ <HybridData value="true" name="preferBitrate"/>
+ <HybridData value="false" name="preferTargetSize"/>
+ <HybridData value="2.5" name="psyRDO"/>
+ <HybridData value="10" name="psyRDOQ"/>
+ <HybridData value="0.6" name="qCompress"/>
+ <HybridData value="1" name="qpAdaptiveRange"/>
+ <HybridData value="32" name="quantizationGroupSize"/>
+ <HybridData value="32" name="quantizer"/>
+ <HybridData value="0.5" name="quantizerBlur"/>
+ <HybridData name="quantizerFrameAssignement"/>
+ <HybridData value="69" name="quantizerMax"/>
+ <HybridData value="0" name="quantizerMin"/>
+ <HybridData value="4" name="quantizerStep"/>
+ <HybridData value="2" name="radlCount"/>
+ <HybridData value="3: RDO mode and split decisions" name="rateDo"/>
+ <HybridData value="18" name="rateFactor"/>
+ <HybridData value="0" name="rateFactorMax"/>
+ <HybridData value="0" name="rateFactorMin"/>
+ <HybridData value="false" name="rcGrain"/>
+ <HybridData value="disabled" name="rdPenalty"/>
+ <HybridData value="true" name="rdRefine"/>
+ <HybridData value="true" name="rdSSIM"/>
+ <HybridData value="true" name="rdoSignBithide"/>
+ <HybridData value="2" name="rdoqLevel"/>
+ <HybridData value="false" name="rectMoPart"/>
+ <HybridData value="1" name="recursionSkip"/>
+ <HybridData value="3" name="references"/>
+ <HybridData value="false" name="repeatHeaders"/>
+ <HybridData value="true" name="resetToPresetBefore"/>
+ <HybridData value="5" name="rskipThreshold"/>
+ <HybridData value="true" name="saoLoopFilter"/>
+ <HybridData value="false" name="saoNonDeblock"/>
+ <HybridData value="false" name="saveRpsValues"/>
+ <HybridData name="scenceQPBackward"/>
+ <HybridData name="scenceQPForward"/>
+ <HybridData value="40" name="sceneCut"/>
+ <HybridData value="disabled" name="sceneCutAwareQP"/>
+ <HybridData value="5" name="sceneCutBias"/>
+ <HybridData value="all slices" name="selectiveSao"/>
+ <HybridData value="true" name="shortenX265CL"/>
+ <HybridData value="false" name="signalHDR"/>
+ <HybridData value="false" name="signalHLG"/>
+ <HybridData value="false" name="signalLightLevelInfo"/>
+ <HybridData value="false" name="signalMasterDisplayInfo"/>
+ <HybridData value="false" name="singleSEI"/>
+ <HybridData value="1" name="slices"/>
+ <HybridData value="false" name="splitrdSkip"/>
+ <HybridData name="statisticFile"/>
+ <HybridData value="false" name="strictCbr"/>
+ <HybridData value="2: 2xhalf + 1xquarter pixel" name="subMe"/>
+ <HybridData name="subversion"/>
+ <HybridData value="700" name="targetSize"/>
+ <HybridData value="custom" name="targetSizeMode"/>
+ <HybridData value="true" name="temporalmvp"/>
+ <HybridData value="false" name="temporalsublayer"/>
+ <HybridData value="0" name="threads"/>
+ <HybridData value="false" name="transformSkip"/>
+ <HybridData value="false" name="uhdbluray"/>
+ <HybridData value="false" name="useHistogramSceneCut"/>
+ <HybridData value="true" name="useSceneCut"/>
+ <HybridData value="0" name="vbvEnd"/>
+ <HybridData value="0.9" name="vbvInit"/>
+ <HybridData value="false" name="vbvLiveMultiPass"/>
+ <HybridData value="0" name="vbvMaxBitrate"/>
+ <HybridData value="0" name="vbvMaxBuffer"/>
+ <HybridData value="80" name="vbvMaxFullNess"/>
+ <HybridData value="50" name="vbvMinFullNess"/>
+ <HybridData value="0" name="videoFramecount"/>
+ <HybridData value="false" name="vuiChromaLocation"/>
+ <HybridData value="0" name="vuiChromaLocationValue"/>
+ <HybridData value="true" name="vuiColorMatrix"/>
+ <HybridData value="unknown" name="vuiColorMatrixValue"/>
+ <HybridData value="false" name="vuiColorPrimes"/>
+ <HybridData value="unknown" name="vuiColorPrimesValue"/>
+ <HybridData value="true" name="vuiHrdSignaling"/>
+ <HybridData value="false" name="vuiOverscan"/>
+ <HybridData value="unknown" name="vuiOverscanValue"/>
+ <HybridData value="true" name="vuiRange"/>
+ <HybridData value="auto" name="vuiRangeValue"/>
+ <HybridData value="false" name="vuiTransfer"/>
+ <HybridData value="unknown" name="vuiTransferValue"/>
+ <HybridData value="false" name="vuiVideoFormat"/>
+ <HybridData value="unknown" name="vuiVideoFormatValue"/>
+ <HybridData value="true" name="wavefrontPP"/>
+ <HybridData value="false" name="weightedB"/>
+ <HybridData value="true" name="weigthedP"/>
+ <HybridData name="zones"/>
+</HybridModel>
